@@ -1,4 +1,5 @@
 "
+"
 " Name:         Cyberpunk
 " Author:       Raza Farooq
 " URL:          https://github.com/rationalthinker1/cyberpunk
@@ -39,8 +40,8 @@ set background=dark
 "selection_background #e5e5e5
 
 let s:base00 = ['#140B2F', '234']
-let s:base01 = ['#FFF878', '236']
-let s:base02 = ['#00BFFF', '237']
+let s:base01 = ['#311680', '236']
+let s:base02 = ['#00ffff', '14']
 let s:base03 = ['#00FBAC', '238']
 let s:base04 = ['#d0d0d0', '252']
 let s:base05 = ['#eee8d5', '187']
@@ -48,8 +49,8 @@ let s:base06 = ['#fdf6e3', '230']
 let s:base07 = ['#DF95FF', '123']
 let s:base08 = ['#FF8AA4', '75']
 let s:base09 = ['#5fd7ff', '81']
-let s:base10 = ['#00ffff', '14']
-let s:base11 = ['#FFF787', '49']
+let s:base10 = ['#FFF787', '49']
+let s:base11 = ['#00BFFF', '237']
 let s:base12 = ['#21F6BC', '157']
 let s:base13 = ['#d7ff00', '190']
 let s:base14 = ['#ff5f00', '202']
