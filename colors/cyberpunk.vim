@@ -1,18 +1,8 @@
 "
-"  "        ______ ____  _____  __  ___ ____ ______   ____   ___  _______   ______   "
-"  "   ____/ ____// __ \/ ___/ /  |/  //  _// ____/  / __ ) /   |   / __ \ / ____/   "
-"  "      / /   _/ / / /\__ \ / /|_/ / / / / /    __/ __  |/ /| |  / /_/ // /_       "
-"  "  ---/ /  __/ /_/ /___/ // /  / /_/ / / /___   / /_/ // ___ | / _, _// __/       "
-"  "    / /     \____//____//_/  /_//___/ \____/ _/_____//_/  |_|/_/ |_|/_/          "
-"  "  -/ /_______________________________________________________________________    "
-"  "   \________________________________________________________________________/    "
-"
-" Name:         Cosmic Barf
-" Author:       Evan Turner <ev@evturn.com>
-" URL:          https://github.com/evturn/cosmic-barf
+" Name:         Cyberpunk
+" Author:       Raza Farooq
+" URL:          https://github.com/rationalthinker1/cyberpunk
 " License:      MIT
-" Created:      Nov 2018
-" Modified:     Dec 2018
 "
 " Colorscheme initialization "{{{
 " ----------------------------------------------------------------------
@@ -20,24 +10,47 @@ highlight clear
 if has('syntax_on')
   syntax reset
 endif
-let g:colors_name = 'cosmic-barf'
+let g:colors_name = 'cyberpunk'
 set background=dark
 "}}}
 " GUI & Term Palettes "{{{
 " ----------------------------------------------------------------------
-let s:base00 = ['#002b36', '234']
-let s:base01 = ['#003847', '236']
-let s:base02 = ['#004052', '237']
-let s:base03 = ['#005a6f', '238']
+"
+"color0 #000000
+"color1 #ff7092
+"color2 #00fbac
+"color3 #fffa6a
+"color4 #00bfff
+"color5 #df95ff
+"color6 #86cbfe
+"color7 #ffffff
+"color8 #000000
+"color9 #ff8aa4
+"color10 #21f6bc
+"color11 #fff787
+"color12 #1bccfd
+"color13 #e6aefe
+"color14 #99d6fc
+"color15 #ffffff
+"background #140B2F
+"selection_foreground #332a57
+"cursor #21f6bc
+"foreground #e5e5e5
+"selection_background #e5e5e5
+
+let s:base00 = ['#140B2F', '234']
+let s:base01 = ['#FFF878', '236']
+let s:base02 = ['#00BFFF', '237']
+let s:base03 = ['#00FBAC', '238']
 let s:base04 = ['#d0d0d0', '252']
 let s:base05 = ['#eee8d5', '187']
 let s:base06 = ['#fdf6e3', '230']
-let s:base07 = ['#87ffff', '123']
-let s:base08 = ['#5fafff', '75']
+let s:base07 = ['#DF95FF', '123']
+let s:base08 = ['#FF8AA4', '75']
 let s:base09 = ['#5fd7ff', '81']
 let s:base10 = ['#00ffff', '14']
-let s:base11 = ['#00ffaf', '49']
-let s:base12 = ['#afffaf', '157']
+let s:base11 = ['#FFF787', '49']
+let s:base12 = ['#21F6BC', '157']
 let s:base13 = ['#d7ff00', '190']
 let s:base14 = ['#ff5f00', '202']
 let s:base15 = ['#ff0087', '198']

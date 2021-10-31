@@ -15,26 +15,26 @@
 ### Option 1: Manual installation
 
 1.  After downloading the vim script or package, move the
-    `cosmic-barf.vim` file to the `.vim/colors` directory.
+    `cyberpunk.vim` file to the `.vim/colors` directory.
 
-        $ cd cosmic-barf/colors
-        $ mv cosmic-barf.vim ~/.vim/colors/
+        $ cd cyberpunk/colors
+        $ mv cyberpunk.vim ~/.vim/colors/
 
 ### Option 2: Pathogen installation
 
-1.  Move or clone the `cosmic-barf` directory so that it is 
+1.  Move or clone the `cyberpunk` directory so that it is
     a subdirectory of the `.vim/bundle` directory.
 
         $ cd ~/.vim/bundle
-        $ git clone git@github.com:evturn/cosmic-barf.git
+        $ git clone git@github.com:evturn/cyberpunk.git
 
 ### Modify .vimrc
 
 ```vimscript
 syntax enable
 set background=dark
-colorscheme cosmic-barf
-let g:colors_name = 'cosmic-barf'
+colorscheme cyberpunk
+let g:colors_name = 'cyberpunk'
 ```
 
 # Screenshots
